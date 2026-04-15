@@ -12,22 +12,22 @@
   [
     {
       "name": "这里填写账户备注",
-      "email": "这里填写邮箱",
-      "passwd": "这里填写密码"
+      "cookie": "这里填写 Cookie"
     },
     {
       "name": "这里填写账户备注",
-      "email": "只有一个账号可以删除这一条{}记录",
-      "passwd": "有两个以上账号自行在下方添加新的{}记录"
+      "cookie": "只有一个账号可以删除这一条{}记录，有两个以上账号自行在下方添加新的{}记录。"
     }
   ]
   ```
 
-- **HOST**: iKuuu 的域名，不设置时默认为 `ikuuu.nl`，iKuuu 更改域名时必须同步修改。iKuuu 经常更换域名，需要随时注意修改。
+- **HOST**: iKuuu 的域名，不设置时默认为 `ikuuu.win`，iKuuu 更改域名时必须同步修改。iKuuu 经常更换域名，需要随时注意修改。
 - **TELEGRAM_TOKEN**: （可选）Telegram 通知的 Bot Token。
 - **TELEGRAM_TO**: （可选）Telegram 通知的 Chat ID。
 
 ### 使用方法
+
+0. 获取 Cookie：登录 iKuuu 后打开开发者工具，在控制台中输入 `document.cookie`，回车后复制输出的内容（不包含引号）作为 Cookie。
 
 1. Fork 此仓库。
 2. 在 fork 后的仓库中启用 Actions。
